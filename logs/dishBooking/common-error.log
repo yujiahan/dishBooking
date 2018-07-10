@@ -1,0 +1,45 @@
+2018-07-10 17:40:49,105 ERROR 73014 [-/::1/-/10ms GET /dish/getAll] nodejs.TypeError: this.app.mysql.select is not a function
+    at DishController.getAll (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/dish.js:7:42)
+    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 73014
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-10 17:41:44,336 ERROR 73050 [-/::1/-/7ms GET /dish/getAll] nodejs.ReferenceError: app is not defined
+    at DishController.getAll (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/dish.js:7:27)
+    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 73050
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-10 17:41:57,519 ERROR 73064 [-/::1/-/7ms GET /dish/getAll] nodejs.TypeError: this.app.mysql.select is not a function
+    at DishController.getAll (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/dish.js:7:42)
+    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 73064
+hostname: qitmac000404deMacBook-Pro.local
+

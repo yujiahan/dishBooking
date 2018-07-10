@@ -8,6 +8,26 @@ module.exports = appInfo => {
 
   // add your config here
   config.middleware = [];
+  config.mysql = {
+    // 单数据库信息配置
+    client: {
+      // host
+      host: 'bj-cdb-87mvauw8.sql.tencentcdb.com',
+      // 端口号
+      port: '63163',
+      // 用户名
+      user: 'root',
+      // 密码
+      password: 'Hannah1@',
+      // 数据库名
+      database: 'dish',
+    },
+    // 是否加载到 app 上，默认开启
+    app: true,
+    // 是否加载到 agent 上，默认关闭
+    agent: false,
+  };
+  
 
   return config;
 };

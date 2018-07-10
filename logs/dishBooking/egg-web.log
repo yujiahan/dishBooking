@@ -1,0 +1,241 @@
+2018-07-10 16:56:14,672 INFO 72070 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 16:56:14,709 INFO 72070 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 16:56:14,709 INFO 72070 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 16:56:14,778 INFO 72070 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 16:56:14,782 INFO 72070 [egg-security] use csrf middleware
+2018-07-10 16:56:14,782 INFO 72070 [egg-security] use methodnoallow middleware
+2018-07-10 16:56:14,783 INFO 72070 [egg-security] use noopen middleware
+2018-07-10 16:56:14,783 INFO 72070 [egg-security] use nosniff middleware
+2018-07-10 16:56:14,784 INFO 72070 [egg-security] use xssProtection middleware
+2018-07-10 16:56:14,784 INFO 72070 [egg-security] use xframe middleware
+2018-07-10 16:56:14,785 INFO 72070 [egg-security] use dta middleware
+2018-07-10 16:56:14,785 INFO 72070 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 16:56:14,818 INFO 72070 [egg-watcher:app] watcher start success
+2018-07-10 17:04:30,782 INFO 72184 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:04:30,821 INFO 72184 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:04:30,821 INFO 72184 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:04:30,887 INFO 72184 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:04:30,892 INFO 72184 [egg-security] use csrf middleware
+2018-07-10 17:04:30,893 INFO 72184 [egg-security] use methodnoallow middleware
+2018-07-10 17:04:30,893 INFO 72184 [egg-security] use noopen middleware
+2018-07-10 17:04:30,894 INFO 72184 [egg-security] use nosniff middleware
+2018-07-10 17:04:30,894 INFO 72184 [egg-security] use xssProtection middleware
+2018-07-10 17:04:30,895 INFO 72184 [egg-security] use xframe middleware
+2018-07-10 17:04:30,895 INFO 72184 [egg-security] use dta middleware
+2018-07-10 17:04:30,895 INFO 72184 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:04:30,927 INFO 72184 [egg-watcher:app] watcher start success
+2018-07-10 17:10:12,724 INFO 72428 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:10:12,760 INFO 72428 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:10:12,760 INFO 72428 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:10:12,802 INFO 72428 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:10:12,806 INFO 72428 [egg-security] use csrf middleware
+2018-07-10 17:10:12,807 INFO 72428 [egg-security] use methodnoallow middleware
+2018-07-10 17:10:12,807 INFO 72428 [egg-security] use noopen middleware
+2018-07-10 17:10:12,807 INFO 72428 [egg-security] use nosniff middleware
+2018-07-10 17:10:12,808 INFO 72428 [egg-security] use xssProtection middleware
+2018-07-10 17:10:12,808 INFO 72428 [egg-security] use xframe middleware
+2018-07-10 17:10:12,808 INFO 72428 [egg-security] use dta middleware
+2018-07-10 17:10:12,808 INFO 72428 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:10:12,839 INFO 72428 [egg-watcher:app] watcher start success
+2018-07-10 17:15:45,261 INFO 72808 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:15:45,300 INFO 72808 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:15:45,300 INFO 72808 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:15:45,370 INFO 72808 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:15:45,373 INFO 72808 [egg-security] use csrf middleware
+2018-07-10 17:15:45,374 INFO 72808 [egg-security] use methodnoallow middleware
+2018-07-10 17:15:45,375 INFO 72808 [egg-security] use noopen middleware
+2018-07-10 17:15:45,376 INFO 72808 [egg-security] use nosniff middleware
+2018-07-10 17:15:45,376 INFO 72808 [egg-security] use xssProtection middleware
+2018-07-10 17:15:45,377 INFO 72808 [egg-security] use xframe middleware
+2018-07-10 17:15:45,378 INFO 72808 [egg-security] use dta middleware
+2018-07-10 17:15:45,378 INFO 72808 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:15:45,415 INFO 72808 [egg-watcher:app] watcher start success
+2018-07-10 17:16:01,839 INFO 72831 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:16:01,877 INFO 72831 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:16:01,877 INFO 72831 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:16:01,937 INFO 72831 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:16:01,940 INFO 72831 [egg-security] use csrf middleware
+2018-07-10 17:16:01,941 INFO 72831 [egg-security] use methodnoallow middleware
+2018-07-10 17:16:01,941 INFO 72831 [egg-security] use noopen middleware
+2018-07-10 17:16:01,942 INFO 72831 [egg-security] use nosniff middleware
+2018-07-10 17:16:01,942 INFO 72831 [egg-security] use xssProtection middleware
+2018-07-10 17:16:01,942 INFO 72831 [egg-security] use xframe middleware
+2018-07-10 17:16:01,942 INFO 72831 [egg-security] use dta middleware
+2018-07-10 17:16:01,942 INFO 72831 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:16:01,973 INFO 72831 [egg-watcher:app] watcher start success
+2018-07-10 17:17:29,156 INFO 72842 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:17:29,194 INFO 72842 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:17:29,194 INFO 72842 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:17:29,248 INFO 72842 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:17:29,250 INFO 72842 [egg-security] use csrf middleware
+2018-07-10 17:17:29,251 INFO 72842 [egg-security] use methodnoallow middleware
+2018-07-10 17:17:29,251 INFO 72842 [egg-security] use noopen middleware
+2018-07-10 17:17:29,252 INFO 72842 [egg-security] use nosniff middleware
+2018-07-10 17:17:29,252 INFO 72842 [egg-security] use xssProtection middleware
+2018-07-10 17:17:29,252 INFO 72842 [egg-security] use xframe middleware
+2018-07-10 17:17:29,253 INFO 72842 [egg-security] use dta middleware
+2018-07-10 17:17:29,253 INFO 72842 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:17:29,285 INFO 72842 [egg-watcher:app] watcher start success
+2018-07-10 17:17:36,849 INFO 72845 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:17:36,892 INFO 72845 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:17:36,892 INFO 72845 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:17:36,956 INFO 72845 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:17:36,959 INFO 72845 [egg-security] use csrf middleware
+2018-07-10 17:17:36,960 INFO 72845 [egg-security] use methodnoallow middleware
+2018-07-10 17:17:36,960 INFO 72845 [egg-security] use noopen middleware
+2018-07-10 17:17:36,960 INFO 72845 [egg-security] use nosniff middleware
+2018-07-10 17:17:36,961 INFO 72845 [egg-security] use xssProtection middleware
+2018-07-10 17:17:36,961 INFO 72845 [egg-security] use xframe middleware
+2018-07-10 17:17:36,962 INFO 72845 [egg-security] use dta middleware
+2018-07-10 17:17:36,962 INFO 72845 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:17:36,991 INFO 72845 [egg-watcher:app] watcher start success
+2018-07-10 17:25:18,399 INFO 72877 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:25:18,446 INFO 72877 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:25:18,446 INFO 72877 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:25:18,511 INFO 72877 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:25:18,514 INFO 72877 [egg-security] use csrf middleware
+2018-07-10 17:25:18,515 INFO 72877 [egg-security] use methodnoallow middleware
+2018-07-10 17:25:18,515 INFO 72877 [egg-security] use noopen middleware
+2018-07-10 17:25:18,515 INFO 72877 [egg-security] use nosniff middleware
+2018-07-10 17:25:18,516 INFO 72877 [egg-security] use xssProtection middleware
+2018-07-10 17:25:18,516 INFO 72877 [egg-security] use xframe middleware
+2018-07-10 17:25:18,516 INFO 72877 [egg-security] use dta middleware
+2018-07-10 17:25:18,517 INFO 72877 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:25:18,545 INFO 72877 [egg-watcher:app] watcher start success
+2018-07-10 17:40:48,501 INFO 73014 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:40:48,542 INFO 73014 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:40:48,542 INFO 73014 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:40:48,597 INFO 73014 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:40:48,599 INFO 73014 [egg-security] use csrf middleware
+2018-07-10 17:40:48,600 INFO 73014 [egg-security] use methodnoallow middleware
+2018-07-10 17:40:48,600 INFO 73014 [egg-security] use noopen middleware
+2018-07-10 17:40:48,600 INFO 73014 [egg-security] use nosniff middleware
+2018-07-10 17:40:48,601 INFO 73014 [egg-security] use xssProtection middleware
+2018-07-10 17:40:48,601 INFO 73014 [egg-security] use xframe middleware
+2018-07-10 17:40:48,601 INFO 73014 [egg-security] use dta middleware
+2018-07-10 17:40:48,601 INFO 73014 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:40:48,639 INFO 73014 [egg-watcher:app] watcher start success
+2018-07-10 17:41:35,911 INFO 73037 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:41:35,951 INFO 73037 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:41:35,951 INFO 73037 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:41:36,011 INFO 73037 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:41:36,013 INFO 73037 [egg-security] use csrf middleware
+2018-07-10 17:41:36,014 INFO 73037 [egg-security] use methodnoallow middleware
+2018-07-10 17:41:36,015 INFO 73037 [egg-security] use noopen middleware
+2018-07-10 17:41:36,015 INFO 73037 [egg-security] use nosniff middleware
+2018-07-10 17:41:36,015 INFO 73037 [egg-security] use xssProtection middleware
+2018-07-10 17:41:36,016 INFO 73037 [egg-security] use xframe middleware
+2018-07-10 17:41:36,016 INFO 73037 [egg-security] use dta middleware
+2018-07-10 17:41:36,016 INFO 73037 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:41:36,048 INFO 73037 [egg-watcher:app] watcher start success
+2018-07-10 17:41:41,837 INFO 73050 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:41:41,879 INFO 73050 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:41:41,879 INFO 73050 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:41:41,936 INFO 73050 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:41:41,938 INFO 73050 [egg-security] use csrf middleware
+2018-07-10 17:41:41,939 INFO 73050 [egg-security] use methodnoallow middleware
+2018-07-10 17:41:41,940 INFO 73050 [egg-security] use noopen middleware
+2018-07-10 17:41:41,940 INFO 73050 [egg-security] use nosniff middleware
+2018-07-10 17:41:41,940 INFO 73050 [egg-security] use xssProtection middleware
+2018-07-10 17:41:41,941 INFO 73050 [egg-security] use xframe middleware
+2018-07-10 17:41:41,941 INFO 73050 [egg-security] use dta middleware
+2018-07-10 17:41:41,941 INFO 73050 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:41:41,977 INFO 73050 [egg-watcher:app] watcher start success
+2018-07-10 17:41:49,575 INFO 73051 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:41:49,612 INFO 73051 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:41:49,612 INFO 73051 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:41:49,666 INFO 73051 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:41:49,669 INFO 73051 [egg-security] use csrf middleware
+2018-07-10 17:41:49,669 INFO 73051 [egg-security] use methodnoallow middleware
+2018-07-10 17:41:49,670 INFO 73051 [egg-security] use noopen middleware
+2018-07-10 17:41:49,670 INFO 73051 [egg-security] use nosniff middleware
+2018-07-10 17:41:49,670 INFO 73051 [egg-security] use xssProtection middleware
+2018-07-10 17:41:49,671 INFO 73051 [egg-security] use xframe middleware
+2018-07-10 17:41:49,671 INFO 73051 [egg-security] use dta middleware
+2018-07-10 17:41:49,671 INFO 73051 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:41:49,702 INFO 73051 [egg-watcher:app] watcher start success
+2018-07-10 17:41:56,322 INFO 73064 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:41:56,362 INFO 73064 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:41:56,362 INFO 73064 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:41:56,421 INFO 73064 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:41:56,423 INFO 73064 [egg-security] use csrf middleware
+2018-07-10 17:41:56,424 INFO 73064 [egg-security] use methodnoallow middleware
+2018-07-10 17:41:56,424 INFO 73064 [egg-security] use noopen middleware
+2018-07-10 17:41:56,424 INFO 73064 [egg-security] use nosniff middleware
+2018-07-10 17:41:56,425 INFO 73064 [egg-security] use xssProtection middleware
+2018-07-10 17:41:56,425 INFO 73064 [egg-security] use xframe middleware
+2018-07-10 17:41:56,425 INFO 73064 [egg-security] use dta middleware
+2018-07-10 17:41:56,425 INFO 73064 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:41:56,459 INFO 73064 [egg-watcher:app] watcher start success
+2018-07-10 17:42:34,303 INFO 73069 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:42:34,343 INFO 73069 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:42:34,343 INFO 73069 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:42:34,357 INFO 73069 [egg-mysql] connecting root@172.21.16.5:3306/dish
+2018-07-10 17:42:34,474 INFO 73069 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:42:34,477 INFO 73069 [egg-security] use csrf middleware
+2018-07-10 17:42:34,478 INFO 73069 [egg-security] use methodnoallow middleware
+2018-07-10 17:42:34,478 INFO 73069 [egg-security] use noopen middleware
+2018-07-10 17:42:34,478 INFO 73069 [egg-security] use nosniff middleware
+2018-07-10 17:42:34,479 INFO 73069 [egg-security] use xssProtection middleware
+2018-07-10 17:42:34,479 INFO 73069 [egg-security] use xframe middleware
+2018-07-10 17:42:34,479 INFO 73069 [egg-security] use dta middleware
+2018-07-10 17:42:34,479 INFO 73069 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:42:34,507 INFO 73069 [egg-watcher:app] watcher start success
+2018-07-10 17:42:40,359 INFO 73084 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:42:40,401 INFO 73084 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:42:40,401 INFO 73084 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:42:40,415 INFO 73084 [egg-mysql] connecting root@172.21.16.5:3306/dish
+2018-07-10 17:42:40,502 INFO 73084 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:42:40,505 INFO 73084 [egg-security] use csrf middleware
+2018-07-10 17:42:40,506 INFO 73084 [egg-security] use methodnoallow middleware
+2018-07-10 17:42:40,506 INFO 73084 [egg-security] use noopen middleware
+2018-07-10 17:42:40,507 INFO 73084 [egg-security] use nosniff middleware
+2018-07-10 17:42:40,507 INFO 73084 [egg-security] use xssProtection middleware
+2018-07-10 17:42:40,508 INFO 73084 [egg-security] use xframe middleware
+2018-07-10 17:42:40,508 INFO 73084 [egg-security] use dta middleware
+2018-07-10 17:42:40,508 INFO 73084 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:42:40,543 INFO 73084 [egg-watcher:app] watcher start success
+2018-07-10 17:43:17,727 INFO 73098 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:43:17,763 INFO 73098 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:43:17,763 INFO 73098 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:43:17,774 INFO 73098 [egg-mysql] connecting root@172.21.16.5:3306/dish
+2018-07-10 17:43:17,860 INFO 73098 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:43:17,863 INFO 73098 [egg-security] use csrf middleware
+2018-07-10 17:43:17,863 INFO 73098 [egg-security] use methodnoallow middleware
+2018-07-10 17:43:17,864 INFO 73098 [egg-security] use noopen middleware
+2018-07-10 17:43:17,864 INFO 73098 [egg-security] use nosniff middleware
+2018-07-10 17:43:17,864 INFO 73098 [egg-security] use xssProtection middleware
+2018-07-10 17:43:17,864 INFO 73098 [egg-security] use xframe middleware
+2018-07-10 17:43:17,865 INFO 73098 [egg-security] use dta middleware
+2018-07-10 17:43:17,865 INFO 73098 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:43:17,897 INFO 73098 [egg-watcher:app] watcher start success
+2018-07-10 17:43:25,801 WARN 73098 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-10 17:45:33,484 INFO 73168 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:45:33,524 INFO 73168 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:45:33,524 INFO 73168 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:45:33,535 INFO 73168 [egg-mysql] connecting root@http://bj-cdb-87mvauw8.sql.tencentcdb.com:63163/dish
+2018-07-10 17:45:33,620 INFO 73168 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:45:33,623 INFO 73168 [egg-security] use csrf middleware
+2018-07-10 17:45:33,624 INFO 73168 [egg-security] use methodnoallow middleware
+2018-07-10 17:45:33,624 INFO 73168 [egg-security] use noopen middleware
+2018-07-10 17:45:33,624 INFO 73168 [egg-security] use nosniff middleware
+2018-07-10 17:45:33,625 INFO 73168 [egg-security] use xssProtection middleware
+2018-07-10 17:45:33,625 INFO 73168 [egg-security] use xframe middleware
+2018-07-10 17:45:33,625 INFO 73168 [egg-security] use dta middleware
+2018-07-10 17:45:33,625 INFO 73168 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:45:33,659 INFO 73168 [egg-watcher:app] watcher start success
+2018-07-10 17:49:02,917 INFO 73203 [egg:logger] init all loggers with options: {"dir":"/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"dishBooking-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-07-10 17:49:02,954 INFO 73203 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-10 17:49:02,954 INFO 73203 [egg-schedule]: register schedule /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-10 17:49:02,965 INFO 73203 [egg-mysql] connecting root@bj-cdb-87mvauw8.sql.tencentcdb.com:63163/dish
+2018-07-10 17:49:03,055 INFO 73203 [egg-static] starting static serve /public/ -> /Users/qitmac000404/Documents/personalJobs/dishBooking/app/public
+2018-07-10 17:49:03,057 INFO 73203 [egg-security] use csrf middleware
+2018-07-10 17:49:03,058 INFO 73203 [egg-security] use methodnoallow middleware
+2018-07-10 17:49:03,058 INFO 73203 [egg-security] use noopen middleware
+2018-07-10 17:49:03,059 INFO 73203 [egg-security] use nosniff middleware
+2018-07-10 17:49:03,059 INFO 73203 [egg-security] use xssProtection middleware
+2018-07-10 17:49:03,059 INFO 73203 [egg-security] use xframe middleware
+2018-07-10 17:49:03,060 INFO 73203 [egg-security] use dta middleware
+2018-07-10 17:49:03,060 INFO 73203 [egg-security] compose 7 middlewares into one security middleware
+2018-07-10 17:49:03,092 INFO 73203 [egg-watcher:app] watcher start success
+2018-07-10 17:49:03,115 INFO 73203 [egg-mysql] instance[0] status OK, rds currentTime: Tue Jul 10 2018 17:49:03 GMT+0800 (CST)
