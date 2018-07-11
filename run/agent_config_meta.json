@@ -162,7 +162,8 @@
     "dependencies": {
       "egg": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js"
+      "egg-scripts": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
+      "sha1": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",

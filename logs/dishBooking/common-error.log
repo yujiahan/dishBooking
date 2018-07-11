@@ -43,3 +43,34 @@ hostname: qitmac000404deMacBook-Pro.local
 pid: 73064
 hostname: qitmac000404deMacBook-Pro.local
 
+2018-07-11 18:06:57,197 ERROR 80691 [-/::1/-/5ms GET /order/todayList] nodejs.ReferenceError: app is not defined
+    at OrderController.todayList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/order.js:11:20)
+    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 80691
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-11 18:14:56,072 ERROR 80945 [-/::1/-/108ms GET /order/todayList] nodejs.TypeError: Cannot set property header of #<Object> which has only a getter
+    at OrderController.todayList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/order.js:24:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 80945
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-11 18:16:20,960 ERROR 80945 [-/::1/-/87ms GET /order/todayList] nodejs.TypeError: Cannot set property header of #<Object> which has only a getter
+    at OrderController.todayList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/order.js:24:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 80945
+hostname: qitmac000404deMacBook-Pro.local
+
