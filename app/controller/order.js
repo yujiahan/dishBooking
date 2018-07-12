@@ -16,7 +16,7 @@ class OrderController extends Controller {
     const result = await this.app.curl(url, {
         method: 'POST',
         data: {
-            method: 'dfire.shop.order.list',
+            method: 'dfire.shop.order.instance.list"',
             v: '1.0',
             timestamp: time,
             appKey: APPKEY,
@@ -31,7 +31,7 @@ class OrderController extends Controller {
   }
 }
 function genSign(time, today){
-    var code =`${APPSECRET}appKey${APPKEY}currDate${today}entityId00138102methoddfire.shop.order.listtimestamp${time}v1.0${APPSECRET}`;
+    var code =`${APPSECRET}appKey${APPKEY}currDate${today}entityId00138102methoddfire.shop.order.instance.listtimestamp${time}v1.0${APPSECRET}`;
     return sha1(code).toUpperCase();
 }
 
