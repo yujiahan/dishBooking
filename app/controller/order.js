@@ -31,7 +31,7 @@ class OrderController extends Controller {
   }
 }
 function genSign(time, today){
-    var code =`${APPSECRET}appKey${APPKEY}currDate${today}entityId00138102methoddfire.shop.order.listtimestamp${time}v1.0${APPSECRET}`;
+    var code =`${APPSECRET}appKey${APPKEY}currDate${today}entityId00138102methoddfire.retail.shop.order.listtimestamp${time}v1.0${APPSECRET}`;
     return sha1(code).toUpperCase();
 }
 
