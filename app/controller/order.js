@@ -16,7 +16,7 @@ class OrderController extends Controller {
     const result = await this.app.curl(url, {
         method: 'POST',
         data: {
-            method: 'dfire.shop.order.list',
+            method: 'dfire.retail.shop.order.list',
             v: '1.0',
             timestamp: time,
             appKey: APPKEY,
