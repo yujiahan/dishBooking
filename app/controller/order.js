@@ -2,6 +2,7 @@
 
 const Controller = require('egg').Controller;
 var sha1 = require('sha1');
+var moment = require('moment')
 
 const url = "http://open.2dfire.com/router";
 const APPKEY = "84f68acf4d9f54b61b6b91b7fc2fe65a";
@@ -9,7 +10,9 @@ const APPSECRET = "f98fcde8f6133fa8ea536c9e57e0ade5";
 
 class OrderController extends Controller {
   async todayList() {
-    const time = new Date().getTime();
+    const currentTime = new Date();
+    const time = currentTime.getTime();
+    const today = moment(time).format('YYYYMMDD')
     const result = await this.app.curl(url, {
         method: 'POST',
         data: {
@@ -17,20 +20,18 @@ class OrderController extends Controller {
             v: '1.0',
             timestamp: time,
             appKey: APPKEY,
-            currDate: '20180710',
+            currDate: today,
             entityId: '00138102',
-            sign: genSign(time)
+            sign: genSign(time, today)
         }
     });
-    console.log(result);
     this.ctx.status = result.status;
     this.ctx.set(result.headers);
     this.ctx.body = result.data;
   }
 }
-function genSign(time){
-    //var code ="";
-    var code =`${APPSECRET}appKey${APPKEY}currDate20180710entityId00138102methoddfire.shop.order.listtimestamp${time}v1.0${APPSECRET}`;
+function genSign(time, today){
+    var code =`${APPSECRET}appKey${APPKEY}currDate${today}entityId00138102methoddfire.shop.order.listtimestamp${time}v1.0${APPSECRET}`;
     return sha1(code).toUpperCase();
 }
 
