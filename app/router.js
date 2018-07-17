@@ -5,8 +5,12 @@
  */
 module.exports = app => {
   const { router, controller } = app;
-  router.get('/', controller.home.index);
+  router.get('/mainPage/:name', controller.home.index);
   
-  router.get('/dish/getAll', controller.dish.getAll);
+  router.get('/dish/getAllDish', controller.dish.getAllDish);
+  router.get('/dish/getAllItem', controller.dish.getAllItem);
+  router.get('/dish/addItem/:sortValue/:itemName/:remark', controller.dish.addItem);
+  router.get('/dish/updateDish', controller.dish.updateDish); //拉取新菜单数据
+  router.get('/dish/updateConsumeList/:dishId/:consumeList', controller.dish.updateDishConsume);
   router.get('/order/todayList', controller.order.todayList);
 };

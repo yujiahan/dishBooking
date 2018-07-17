@@ -16,6 +16,13 @@
       "connectionLimit": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-mysql/config/config.default.js"
     }
   },
+  "cluster": {
+    "listen": {
+      "port": "/Users/qitmac000404/Documents/personalJobs/dishBooking/config/config.prod.js",
+      "hostname": "/Users/qitmac000404/Documents/personalJobs/dishBooking/config/config.prod.js",
+      "path": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js"
+    }
+  },
   "session": {
     "maxAge": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-session/config/config.default.js",
     "key": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-session/config/config.default.js",
@@ -41,7 +48,7 @@
       "value": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-security/config/config.local.js",
+      "enable": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-security/config/config.default.js",
       "maxAge": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-security/config/config.default.js",
       "includeSubdomains": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-security/config/config.default.js"
     },
@@ -94,7 +101,7 @@
     "cookieMaxAge": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-watcher/config/config.default.js",
     "eventSources": {
       "default": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-watcher/config/config.default.js",
       "development": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-watcher/config/config.default.js"
@@ -110,13 +117,6 @@
     "files": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-multipart/config/config.default.js",
     "fileExtensions": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-multipart/config/config.default.js",
     "whitelist": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-multipart/config/config.default.js"
-  },
-  "development": {
-    "watchDirs": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-development/config/config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
@@ -138,12 +138,13 @@
     "dir": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-static/config/config.default.js",
     "dynamic": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-static/config/config.default.js",
     "preload": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-static/config/config.default.js"
+    "buffer": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-static/config/config.prod.js",
+    "maxFiles": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-static/config/config.default.js",
+    "maxAge": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-static/config/config.prod.js"
   },
   "view": {
     "root": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-view/config/config.local.js",
+    "cache": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-view/config/config.default.js",
     "defaultExtension": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-view/config/config.default.js",
     "defaultViewEngine": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-view/config/config.default.js"
@@ -163,6 +164,9 @@
       "egg": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
+      "mobx-state-tree": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
+      "moment": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
+      "react-router": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
       "sha1": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
@@ -244,9 +248,7 @@
     "coreLogName": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
     "agentLogName": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
     "errorLogName": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
-    "coreLogger": {
-      "consoleLevel": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.local.js"
-    },
+    "coreLogger": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
     "allowDebugAtProd": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
@@ -275,13 +277,6 @@
   },
   "coreMiddleware": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
   "workerStartTimeout": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
-  "cluster": {
-    "listen": {
-      "path": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
-      "port": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js"
-    }
-  },
   "clusterClient": {
     "responseTimeout": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/config.default.js"
   },
