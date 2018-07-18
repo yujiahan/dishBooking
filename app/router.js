@@ -13,4 +13,7 @@ module.exports = app => {
   router.get('/dish/updateDish', controller.dish.updateDish); //拉取新菜单数据
   router.get('/dish/updateConsumeList/:dishId/:consumeList', controller.dish.updateDishConsume);
   router.get('/order/todayList', controller.order.todayList);
+  router.get('/chart/getSaleDish', controller.chart.getSaleDish);
+  router.get('/chart/getOrderList', controller.chart.getOrderList);
+  router.get('/chart/getOrderDetailList', controller.chart.getOrderDetailList);
 };
