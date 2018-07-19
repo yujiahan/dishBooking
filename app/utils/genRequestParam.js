@@ -1,5 +1,6 @@
 var sha1 = require('sha1');
-var moment = require('moment')
+var crypto = require('crypto');
+var moment = require('moment');
 const APPSECRET = "f98fcde8f6133fa8ea536c9e57e0ade5";
 
 const ParamValueMap = {
@@ -13,26 +14,22 @@ const ParamValueMap = {
 const MethodParamMap = new Map([
     ['dfire.shop.day.memu.data', ['appKey','timestamp', 'v', 'method', 'entityId', 'currDate'] ],
     ['dfire.shop.order.list', ['appKey','timestamp', 'v', 'method', 'entityId', 'currDate'] ],
-    ['dfire.shop.order.instance.list', ['appKey','timestamp', 'v', 'method', 'entityId', 'currDate', 'orderIds'] ]
+    ['dfire.shop.order.instance.list', ['appKey','timestamp','v','method', 'entityId','currDate','orderIds'] ]
 ])
 
 function genSign(method, param){
     var paramList = MethodParamMap.get(method);
     var sortParamList = paramList.sort();
     var paramSortStr = APPSECRET;
-
+    
     sortParamList.map((item)=>{
-        if(Array.isArray(param[item])){
-            paramSortStr +=  (item +  JSON.stringify(param[item]))
-        } else {
-            paramSortStr +=  (item + param[item])
-        }
+        paramSortStr +=  (item + param[item])
     })
 
     paramSortStr += APPSECRET
-
-    return  sha1(paramSortStr).toUpperCase();
+    return crypto.createHash('sha1').update(paramSortStr).digest('hex').toUpperCase()
 }
+
 
 function genParam(method, extraParam) {
     var param = {

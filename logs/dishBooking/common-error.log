@@ -1,469 +1,33 @@
-2018-07-10 17:40:49,105 ERROR 73014 [-/::1/-/10ms GET /dish/getAll] nodejs.TypeError: this.app.mysql.select is not a function
-    at DishController.getAll (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/dish.js:7:42)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-
-pid: 73014
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-10 17:41:44,336 ERROR 73050 [-/::1/-/7ms GET /dish/getAll] nodejs.ReferenceError: app is not defined
-    at DishController.getAll (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/dish.js:7:27)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-
-pid: 73050
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-10 17:41:57,519 ERROR 73064 [-/::1/-/7ms GET /dish/getAll] nodejs.TypeError: this.app.mysql.select is not a function
-    at DishController.getAll (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/dish.js:7:42)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-
-pid: 73064
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-11 18:06:57,197 ERROR 80691 [-/::1/-/5ms GET /order/todayList] nodejs.ReferenceError: app is not defined
-    at OrderController.todayList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/order.js:11:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-
-pid: 80691
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-11 18:14:56,072 ERROR 80945 [-/::1/-/108ms GET /order/todayList] nodejs.TypeError: Cannot set property header of #<Object> which has only a getter
-    at OrderController.todayList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/order.js:24:21)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 80945
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-11 18:16:20,960 ERROR 80945 [-/::1/-/87ms GET /order/todayList] nodejs.TypeError: Cannot set property header of #<Object> which has only a getter
-    at OrderController.todayList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/order.js:24:21)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 80945
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-11 18:50:40,483 ERROR 81364 nodejs.ClusterClientNoResponseError: client no response in 774095ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
-    at ontimeout (timers.js:482:11)
-    at tryOnTimeout (timers.js:317:5)
-    at Timer.listOnTimeout (timers.js:277:5)
-name: 'ClusterClientNoResponseError'
-pid: 81364
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-11 19:07:41,238 ERROR 81364 nodejs.ClusterClientNoResponseError: client no response in 100604ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
-    at ontimeout (timers.js:482:11)
-    at tryOnTimeout (timers.js:317:5)
-    at Timer.listOnTimeout (timers.js:277:5)
-name: 'ClusterClientNoResponseError'
-pid: 81364
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:38:53,745 ERROR 25156 [-/::1/-/10ms GET /chart/getSaleDish] nodejs.ReferenceError: url is not defined
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:8:44)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
-
-pid: 25156
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:41:07,335 ERROR 25282 [-/::1/-/6ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:42:56)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-
-pid: 25282
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:44:13,937 ERROR 25345 [-/::1/-/7ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:44:56)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-
-pid: 25345
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:44:47,441 ERROR 25388 [-/::1/-/8ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:44:56)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-
-pid: 25388
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:45:06,654 ERROR 25388 [-/::1/-/1ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:44:56)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-
-pid: 25388
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:45:09,606 ERROR 25388 [-/::1/-/1ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:44:56)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-
-pid: 25388
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:45:39,171 ERROR 25388 [-/::1/-/0ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:44:56)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-
-pid: 25388
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:45:41,032 ERROR 25388 [-/::1/-/0ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:44:56)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-
-pid: 25388
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:45:41,511 ERROR 25388 [-/::1/-/0ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:44:56)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-
-pid: 25388
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:45:41,735 ERROR 25388 [-/::1/-/0ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:44:56)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-
-pid: 25388
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:45:41,925 ERROR 25388 [-/::1/-/1ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:44:56)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-
-pid: 25388
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:48:51,160 ERROR 25501 [-/::1/-/17ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:44:56)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-
-pid: 25501
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:50:16,245 ERROR 25563 [-/127.0.0.1/-/32871ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:44:56)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-
-pid: 25563
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:52:01,086 ERROR 25634 [-/127.0.0.1/-/5ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at paramList.map (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:43:56)
-    at Array.map (<anonymous>)
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:39:15)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-
-pid: 25634
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:52:36,689 ERROR 25634 [-/127.0.0.1/-/9201ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at paramList.map (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:43:56)
-    at Array.map (<anonymous>)
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:39:15)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-
-pid: 25634
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:53:42,805 ERROR 25634 [-/127.0.0.1/-/57924ms GET /chart/getSaleDish] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at paramList.map (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:43:56)
-    at Array.map (<anonymous>)
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:39:15)
-    at ChartController.getSaleDish (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:10:19)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
-    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
-    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
-    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
-    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
-
-pid: 25634
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 17:59:35,664 ERROR 25500 nodejs.ClusterClientNoResponseError: client no response in 78555ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
-    at ontimeout (timers.js:482:11)
-    at tryOnTimeout (timers.js:317:5)
-    at Timer.listOnTimeout (timers.js:277:5)
-name: 'ClusterClientNoResponseError'
-pid: 25500
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 18:51:51,886 ERROR 26558 [-/127.0.0.1/-/642ms GET /chart/getOrderDetailList] nodejs.TypeError: Cannot read property 'map' of undefined
-    at ChartController.getOrderDetailList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:31:43)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 26558
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 18:53:15,924 ERROR 26557 nodejs.ClusterClientNoResponseError: client no response in 79233ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
-    at ontimeout (timers.js:482:11)
-    at tryOnTimeout (timers.js:317:5)
-    at Timer.listOnTimeout (timers.js:277:5)
-name: 'ClusterClientNoResponseError'
-pid: 26557
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 18:56:52,604 ERROR 26558 [-/127.0.0.1/-/285154ms GET /chart/getOrderDetailList] nodejs.TypeError: Cannot read property 'map' of undefined
-    at ChartController.getOrderDetailList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:31:43)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 26558
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 18:57:03,548 ERROR 26615 [-/127.0.0.1/-/5448ms GET /chart/getOrderDetailList] nodejs.TypeError: ParamValueMap[paramName] is not a function
-    at paramList.map (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:45:56)
-    at Array.map (<anonymous>)
-    at genParam (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/utils/genRequestParam.js:41:15)
-    at ChartController.getOrderDetailList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:35:15)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 26615
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 19:03:16,007 ERROR 26557 nodejs.ClusterClientNoResponseError: client no response in 68188ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
-    at ontimeout (timers.js:482:11)
-    at tryOnTimeout (timers.js:317:5)
-    at Timer.listOnTimeout (timers.js:277:5)
-name: 'ClusterClientNoResponseError'
-pid: 26557
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 19:08:14,864 ERROR 26759 [-/undefined/-/417844ms GET /chart/getOrderDetailList] nodejs.ResponseError: write EPIPE (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":7,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
-headers: {}
+2018-07-19 14:23:09,984 ERROR 27825 nodejs.unhandledExceptionError: write EIO
     at _errnoException (util.js:1022:11)
     at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
-code: 'EPIPE'
-errno: 'EPIPE'
+code: 'EIO'
+errno: 'EIO'
 syscall: 'write'
-name: 'ResponseError'
-data: undefined
-path: '/router'
-status: -1
-headers: {}
-res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 2, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
-headerSent: true
-pid: 26759
+name: 'unhandledExceptionError'
+pid: 27825
 hostname: qitmac000404deMacBook-Pro.local
 
-2018-07-18 19:09:02,916 ERROR 26897 [-/127.0.0.1/-/95ms GET /chart/getOrderDetailList] nodejs.TypeError: Cannot read property 'map' of undefined
-    at ChartController.getOrderDetailList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:31:70)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 26897
+2018-07-19 14:23:09,985 ERROR 27825 nodejs.unhandledExceptionError: write EIO
+    at _errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+code: 'EIO'
+errno: 'EIO'
+syscall: 'write'
+name: 'unhandledExceptionError'
+pid: 27825
 hostname: qitmac000404deMacBook-Pro.local
 
-2018-07-18 19:12:38,618 ERROR 26896 nodejs.ClusterClientNoResponseError: client no response in 74407ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2018-07-19 14:28:19,660 ERROR 32045 nodejs.ClusterClientNoResponseError: client no response in 77878ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
     at ontimeout (timers.js:482:11)
     at tryOnTimeout (timers.js:317:5)
     at Timer.listOnTimeout (timers.js:277:5)
 name: 'ClusterClientNoResponseError'
-pid: 26896
+pid: 32045
 hostname: qitmac000404deMacBook-Pro.local
 
-2018-07-18 19:17:53,429 ERROR 26957 [-/undefined/-/389109ms GET /chart/getOrderDetailList] nodejs.ResponseError: write EPIPE (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":3,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
-headers: {}
-    at _errnoException (util.js:1022:11)
-    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
-code: 'EPIPE'
-errno: 'EPIPE'
-syscall: 'write'
-name: 'ResponseError'
-data: undefined
-path: '/router'
-status: -1
-headers: {}
-res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 2, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
-headerSent: true
-pid: 26957
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 19:23:18,714 ERROR 26896 nodejs.ClusterClientNoResponseError: client no response in 66446ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
-    at ontimeout (timers.js:482:11)
-    at tryOnTimeout (timers.js:317:5)
-    at Timer.listOnTimeout (timers.js:277:5)
-name: 'ClusterClientNoResponseError'
-pid: 26896
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 19:30:39,750 ERROR 27103 [-/undefined/-/516387ms GET /chart/getOrderDetailList] nodejs.ResponseError: write EPIPE (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":3,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
-headers: {}
-    at _errnoException (util.js:1022:11)
-    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
-code: 'EPIPE'
-errno: 'EPIPE'
-syscall: 'write'
-name: 'ResponseError'
-data: undefined
-path: '/router'
-status: -1
-headers: {}
-res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 1, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
-headerSent: true
-pid: 27103
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 19:31:13,950 ERROR 27270 [-/127.0.0.1/-/21405ms GET /chart/getOrderDetailList] nodejs.ResponseError: socket hang up (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
+2018-07-19 14:30:16,401 ERROR 32046 [-/undefined/-/189599ms GET /chart/getOrderDetailList] nodejs.ResponseError: socket hang up (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":6,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
 headers: {}
 headers: {}
     at createHangUpError (_http_client.js:331:15)
@@ -480,10 +44,20 @@ path: '/router'
 status: -1
 headers: {}
 res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 2, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
-pid: 27270
+headerSent: true
+pid: 32046
 hostname: qitmac000404deMacBook-Pro.local
 
-2018-07-18 19:32:48,697 ERROR 27312 [-/127.0.0.1/-/48927ms GET /chart/getOrderDetailList] nodejs.ResponseError: write EPIPE (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":3,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
+2018-07-19 14:31:19,672 ERROR 32045 nodejs.ClusterClientNoResponseError: client no response in 63267ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 32045
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 14:31:48,517 ERROR 32046 [-/::1/-/76958ms GET /chart/getOrderDetailList] nodejs.ResponseError: write EPIPE (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":6,"createSocketErrorCount":0,"closeSocketCount":5,"errorSocketCount":0,"timeoutSocketCount":4,"requestCount":9,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
 headers: {}
     at _errnoException (util.js:1022:11)
     at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
@@ -496,10 +70,35 @@ path: '/router'
 status: -1
 headers: {}
 res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 1, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
-pid: 27312
+pid: 32046
 hostname: qitmac000404deMacBook-Pro.local
 
-2018-07-18 19:36:45,928 ERROR 27394 [-/127.0.0.1/-/22783ms GET /chart/getOrderDetailList] nodejs.ResponseError: socket hang up (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":3,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
+2018-07-19 14:33:19,688 ERROR 32045 nodejs.ClusterClientNoResponseError: client no response in 70488ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 32045
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 14:54:50,405 ERROR 33679 [-/::1/-/85764ms GET /chart/getOrderDetailList] nodejs.ResponseError: write EPIPE (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
+headers: {}
+    at _errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+code: 'EPIPE'
+errno: 'EPIPE'
+syscall: 'write'
+name: 'ResponseError'
+data: undefined
+path: '/router'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 3, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
+pid: 33679
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 14:56:10,448 ERROR 33679 [-/::1/-/35847ms GET /chart/getOrderDetailList] nodejs.ResponseError: socket hang up (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":4,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
 headers: {}
 headers: {}
     at createHangUpError (_http_client.js:331:15)
@@ -515,11 +114,157 @@ data: undefined
 path: '/router'
 status: -1
 headers: {}
-res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 1, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
-pid: 27394
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 2, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
+pid: 33679
 hostname: qitmac000404deMacBook-Pro.local
 
-2018-07-18 19:37:58,580 ERROR 27425 [-/127.0.0.1/-/21492ms GET /chart/getOrderDetailList] nodejs.ResponseError: socket hang up (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
+2018-07-19 15:04:53,189 ERROR 33678 nodejs.ClusterClientNoResponseError: client no response in 79199ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 33678
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 15:10:53,233 ERROR 33678 nodejs.ClusterClientNoResponseError: client no response in 63584ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 33678
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 16:08:25,240 ERROR 35242 [-/::1/-/42837ms GET /chart/getOrderDetailList] nodejs.ResponseError: write EPIPE (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":2,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
+headers: {}
+    at _errnoException (util.js:1022:11)
+    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+code: 'EPIPE'
+errno: 'EPIPE'
+syscall: 'write'
+name: 'ResponseError'
+data: undefined
+path: '/router'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 1, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
+pid: 35242
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 16:09:33,737 ERROR 33678 nodejs.ClusterClientNoResponseError: client no response in 67731ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 33678
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 16:10:35,683 ERROR 35257 [-/::1/-/125082ms GET /chart/getOrderDetailList] nodejs.AssertionError [ERR_ASSERTION]: status code must be a number
+    at Object.set status [as status] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa/lib/response.js:85:5)
+    at Object.status (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/delegates/index.js:92:31)
+    at ChartController.getOrderDetailList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:47:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: false
+expected: true
+operator: '=='
+pid: 35257
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 16:10:36,955 ERROR 35290 [-/::1/-/407ms GET /chart/getOrderDetailList] nodejs.TypeError: Assignment to constant variable.
+    at ChartController.getOrderDetailList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:43:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 35290
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 16:11:01,133 ERROR 35301 [-/::1/-/4536ms GET /chart/getOrderDetailList] nodejs.TypeError: Assignment to constant variable.
+    at ChartController.getOrderDetailList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:43:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 35301
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 16:12:33,765 ERROR 33678 nodejs.ClusterClientNoResponseError: client no response in 77590ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 33678
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 16:17:28,630 ERROR 35314 [-/::1/-/367961ms GET /chart/getOrderDetailList] nodejs.AssertionError [ERR_ASSERTION]: status code must be a number
+    at Object.set status [as status] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa/lib/response.js:85:5)
+    at Object.status (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/delegates/index.js:92:31)
+    at ChartController.getOrderDetailList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:47:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: false
+expected: true
+operator: '=='
+pid: 35314
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 16:17:49,698 ERROR 35314 [-/::1/-/9187ms GET /chart/getOrderDetailList] nodejs.AssertionError [ERR_ASSERTION]: status code must be a number
+    at Object.set status [as status] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa/lib/response.js:85:5)
+    at Object.status (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/delegates/index.js:92:31)
+    at ChartController.getOrderDetailList (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:47:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: false
+expected: true
+operator: '=='
+pid: 35314
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 16:39:00,712 ERROR 35740 [-/::1/-/8ms GET /chart/getOrderDetailList] nodejs.SyntaxError: Identifier 'orderResult' has already been declared
+    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/koa-router/lib/router.js:351:31)
+
+pid: 35740
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 16:44:34,196 ERROR 35739 nodejs.ClusterClientNoResponseError: client no response in 72975ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 35739
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 16:47:54,225 ERROR 35739 nodejs.ClusterClientNoResponseError: client no response in 60850ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: 'ClusterClientNoResponseError'
+pid: 35739
+hostname: qitmac000404deMacBook-Pro.local
+
+2018-07-19 16:49:58,417 ERROR 35959 [-/::1/-/45306ms GET /chart/getOrderDetailList] nodejs.ResponseError: socket hang up (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
 headers: {}
 headers: {}
     at createHangUpError (_http_client.js:331:15)
@@ -535,94 +280,37 @@ data: undefined
 path: '/router'
 status: -1
 headers: {}
-res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 4, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
-pid: 27425
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 2, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
+pid: 35959
 hostname: qitmac000404deMacBook-Pro.local
 
-2018-07-18 19:41:56,813 ERROR 27467 nodejs.ClusterClientNoResponseError: client no response in 78217ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
-    at ontimeout (timers.js:482:11)
-    at tryOnTimeout (timers.js:317:5)
-    at Timer.listOnTimeout (timers.js:277:5)
-name: 'ClusterClientNoResponseError'
-pid: 27467
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 19:44:16,937 ERROR 27522 [-/undefined/-/217808ms GET /chart/getOrderDetailList] nodejs.ResponseError: write EPIPE (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":3,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
+2018-07-19 16:54:07,659 ERROR 36109 [-/::1/-/23818ms GET /chart/getOrderDetailList] nodejs.ResponseError: socket hang up (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
 headers: {}
-    at _errnoException (util.js:1022:11)
-    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
-code: 'EPIPE'
-errno: 'EPIPE'
-syscall: 'write'
+headers: {}
+    at createHangUpError (_http_client.js:331:15)
+    at Socket.socketOnEnd (_http_client.js:423:23)
+    at emitNone (events.js:111:20)
+    at Socket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+code: 'ECONNRESET'
 name: 'ResponseError'
 data: undefined
 path: '/router'
 status: -1
 headers: {}
-res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 2, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
-headerSent: true
-pid: 27522
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 3, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
+pid: 36109
 hostname: qitmac000404deMacBook-Pro.local
 
-2018-07-18 19:45:36,844 ERROR 27467 nodejs.ClusterClientNoResponseError: client no response in 79265ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
-    at ontimeout (timers.js:482:11)
-    at tryOnTimeout (timers.js:317:5)
-    at Timer.listOnTimeout (timers.js:277:5)
-name: 'ClusterClientNoResponseError'
-pid: 27467
-hostname: qitmac000404deMacBook-Pro.local
+2018-07-19 17:15:33,816 ERROR 36652 [-/::1/-/3854ms GET /chart/getDishRank] nodejs.ReferenceError: Invalid left-hand side in assignment
+    at result.map (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:115:17)
+    at Array.map (<anonymous>)
+    at ChartController.getDishRank (/Users/qitmac000404/Documents/personalJobs/dishBooking/app/controller/chart.js:107:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
 
-2018-07-18 19:46:46,241 ERROR 27553 [-/undefined/-/143904ms GET /chart/getOrderDetailList] nodejs.ResponseError: write EPIPE (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
-headers: {}
-    at _errnoException (util.js:1022:11)
-    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
-code: 'EPIPE'
-errno: 'EPIPE'
-syscall: 'write'
-name: 'ResponseError'
-data: undefined
-path: '/router'
-status: -1
-headers: {}
-res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 2, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
-headerSent: true
-pid: 27553
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 19:52:56,914 ERROR 27467 nodejs.ClusterClientNoResponseError: client no response in 77190ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
-    at ontimeout (timers.js:482:11)
-    at tryOnTimeout (timers.js:317:5)
-    at Timer.listOnTimeout (timers.js:277:5)
-name: 'ClusterClientNoResponseError'
-pid: 27467
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 19:54:36,929 ERROR 27467 nodejs.ClusterClientNoResponseError: client no response in 61118ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/cluster-client/lib/leader.js:74:23)
-    at ontimeout (timers.js:482:11)
-    at tryOnTimeout (timers.js:317:5)
-    at Timer.listOnTimeout (timers.js:277:5)
-name: 'ClusterClientNoResponseError'
-pid: 27467
-hostname: qitmac000404deMacBook-Pro.local
-
-2018-07-18 20:09:35,462 ERROR 27659 [-/undefined/-/1069992ms GET /chart/getOrderDetailList] nodejs.ResponseError: write EPIPE (req "error"), POST http://open.2dfire.com/router -1 (connected: true, keepalive socket: true, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{},"sockets":{"open.2dfire.com:80:":1},"requests":{}})
-headers: {}
-    at _errnoException (util.js:1022:11)
-    at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
-code: 'EPIPE'
-errno: 'EPIPE'
-syscall: 'write'
-name: 'ResponseError'
-data: undefined
-path: '/router'
-status: -1
-headers: {}
-res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 2, keepAliveSocket: true, data: undefined, requestUrls: [ 'http://open.2dfire.com/router' ], timing: null, remoteAddress: '120.55.199.20', remotePort: 80 }
-headerSent: true
-pid: 27659
+pid: 36652
 hostname: qitmac000404deMacBook-Pro.local
 
