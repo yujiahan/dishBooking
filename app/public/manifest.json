@@ -2,9 +2,9 @@
   "short_name": "椒塘app",
   "name": "椒小塘",
   "icons": [{
-    "src": "http://jiao-tang.com:7001/public/logo.png",
-    "sizes": "375x375",
-    "type": "image/png"
+      "src": "public/logo.png",
+      "sizes": "375x375",
+      "type": "image/png"
   }],
   "start_url": "/mainPage/nav",
   "display": "standalone",
