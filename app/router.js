@@ -17,4 +17,5 @@ module.exports = app => {
   router.get('/chart/getOrderList', controller.chart.getOrderList);
   router.get('/chart/getOrderDetailList', controller.chart.getOrderDetailList);
   router.get('/chart/getDishRank', controller.chart.getDishRank);
+  router.get('/chart/getReturnDishList', controller.chart.getReturnDishList);
 };

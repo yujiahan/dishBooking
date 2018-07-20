@@ -81,7 +81,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "default",
+      "type": "development",
       "eventSources": {
         "default": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-watcher/lib/event-sources/default",
         "development": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-watcher/lib/event-sources/development"
@@ -98,10 +98,17 @@
       "fileExtensions": [],
       "whitelist": null
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/qitmac000404/logs/dishBooking/egg-schedule.log"
+        "file": "/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -118,13 +125,12 @@
       "dir": "/Users/qitmac000404/Documents/personalJobs/dishBooking/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": true,
-      "maxFiles": 1000,
-      "maxAge": 31536000
+      "buffer": false,
+      "maxFiles": 1000
     },
     "view": {
       "root": "/Users/qitmac000404/Documents/personalJobs/dishBooking/app/view",
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
@@ -144,7 +150,7 @@
         "database": "dish"
       }
     },
-    "env": "prod",
+    "env": "local",
     "name": "dishBooking",
     "keys": "<String len: 29>",
     "proxy": false,
@@ -201,7 +207,7 @@
       "license": "MIT"
     },
     "baseDir": "/Users/qitmac000404/Documents/personalJobs/dishBooking",
-    "HOME": "/Users/qitmac000404",
+    "HOME": "/var/root",
     "rundir": "/Users/qitmac000404/Documents/personalJobs/dishBooking/run",
     "dump": {
       "ignore": "<Set>"
@@ -232,19 +238,21 @@
       }
     },
     "logger": {
-      "dir": "/Users/qitmac000404/logs/dishBooking",
+      "dir": "/Users/qitmac000404/Documents/personalJobs/dishBooking/logs/dishBooking",
       "encoding": "utf8",
-      "env": "prod",
+      "env": "local",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": true,
+      "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "dishBooking-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": true,
       "type": "agent"
     },
@@ -283,8 +291,8 @@
     "cluster": {
       "listen": {
         "path": "",
-        "port": 80,
-        "hostname": "127.0.0.1"
+        "port": 7001,
+        "hostname": ""
       }
     },
     "clusterClient": {
@@ -379,6 +387,21 @@
       "from": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/plugin.js",
       "path": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-multipart",
       "version": "2.0.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg/config/plugin.js",
+      "path": "/Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-development",
+      "version": "2.2.0"
     },
     "schedule": {
       "enable": true,

@@ -28,3 +28,7 @@
 2018-07-19 17:15:15,131 INFO 36651 [Timer] /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-07-20 00:00:01.000
 2018-07-19 18:22:14,126 INFO 37201 [Timer] /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-07-20 00:00:00.000
 2018-07-19 18:22:14,127 INFO 37201 [Timer] /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-07-20 00:00:01.000
+2018-07-20 11:06:06,237 INFO 42553 [Timer] /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-07-21 00:00:00.000
+2018-07-20 11:06:06,238 INFO 42553 [Timer] /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-07-21 00:00:01.000
+2018-07-20 12:07:18,638 INFO 43234 [Timer] /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-07-21 00:00:00.000
+2018-07-20 12:07:18,639 INFO 43234 [Timer] /Users/qitmac000404/Documents/personalJobs/dishBooking/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-07-21 00:00:01.000

@@ -7,7 +7,7 @@ const ParamValueMap = {
     'appKey': '84f68acf4d9f54b61b6b91b7fc2fe65a',
     'v' : '1.0',
     'entityId': '00138102',
-    'currDate': ()=> moment().format('YYYYMMDD'),
+    'currDate': ()=> moment().subtract(1,'days').format('YYYYMMDD'),
     'timestamp': ()=> new Date().getTime()
 }
 
