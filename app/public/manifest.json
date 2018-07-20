@@ -1,11 +1,13 @@
 {
   "short_name": "椒塘app",
   "name": "椒小塘",
-  "icons": {
-    "48": "/public/logo.png",
-    "96": "/public/logo.png",
-    "144": "/public/logo.png"
-  },
+  "icons": [
+    {
+        "src": "/public/logo.png",
+        "type": "image/png",
+        "sizes": "48x48 96x96 128x128"
+    }
+],
   "start_url": "/mainPage/nav",
   "display": "standalone",
   "theme_color": "#2196F3",
