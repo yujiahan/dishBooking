@@ -1,5 +1,5 @@
 {
-  "short_name": "Jiao Tang",
+  "short_name": "React App",
   "name": "椒小塘",
   "icons": [
     {
@@ -8,8 +8,8 @@
         "sizes": "48x48 96x96 128x128"
     }
 ],
-  "start_url": "./index.html",
+  "start_url": "/mainPage/nav",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#000000"
 }
