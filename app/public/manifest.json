@@ -1,13 +1,18 @@
 {
-  "short_name": "椒塘app",
-  "name": "椒小塘",
+  "name": "微博Lite",
+  "short_name": "微博",
+  "description": "随时随地分享新鲜事",
   "icons": [{
-      "src": "public/logo.png",
-      "sizes": "375x375",
+      "src": "https://h5.sinaimg.cn/upload/696/2017/08/23/weibologo.png",
+      "sizes": "606x606",
       "type": "image/png"
-  }],
-  "start_url": "/mainPage/nav",
+    }],
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "theme_color": "#2196F3",
-  "background_color": "#fff"
+  "orientation": "portrait",
+  "background_color": "#F3F3F3",
+  "theme_color": "#F3F3F3",
+  "related_applications": [],
+  "prefer_related_applications": false
 }
