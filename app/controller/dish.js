@@ -21,20 +21,14 @@ class DishController extends Controller {
   }
   async updateDish() { //重新拉取菜品数据
     let errCount = 0;
-    let newDishList =  [
-      {
-          "id": "123",
-          "name": "王老吉",
-          "price": 3        
-      },{
-         "id":'234',
-         "name": "雪碧",
-         "price": 2
-      }
-    ]
-    for( let idx in newDishList) {
+    const menuDishResult = await this.app.curl(url, {
+      method: 'POST',
+      data: genParam('dfire.shop.day.memu.data')
+    });
+    const newDishList = JSON.parse(menuDishResult.data.toString()).model;
+    for( let idx in newDishList ) {
       try {
-        await this.app.mysql.insert('alldish', {code: newDishList[idx].id, name: newDishList[idx].name} );
+        await this.app.mysql.insert('alldish', {code: newDishList[idx].entityId, name: newDishList[idx].menuName} );
       }
       catch(err) { errCount ++ }
     }
