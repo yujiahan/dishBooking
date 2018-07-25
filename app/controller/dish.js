@@ -1,5 +1,6 @@
 'use strict';
-
+let genParam   = require('../utils/genRequestParam');
+const url = "http://open.2dfire.com/router";
 const Controller = require('egg').Controller;
 
 class DishController extends Controller {
@@ -28,7 +29,7 @@ class DishController extends Controller {
     const newDishList = JSON.parse(menuDishResult.data.toString()).model;
     for( let idx in newDishList ) {
       try {
-        await this.app.mysql.insert('alldish', {code: newDishList[idx].entityId, name: newDishList[idx].menuName} );
+        await this.app.mysql.insert('alldish', {name: newDishList[idx].menuName} );
       }
       catch(err) { errCount ++ }
     }
