@@ -5,7 +5,7 @@
  */
 module.exports = app => {
   const { router, controller } = app;
-  router.get('/mainPage/:name', controller.home.index);
+  router.get('/nav', controller.home.index);
   
   router.get('/dish/getAllDish', controller.dish.getAllDish);
   router.get('/dish/getAllItem', controller.dish.getAllItem);

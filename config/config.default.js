@@ -1,5 +1,5 @@
 'use strict';
-
+var  path  = require('path')
 module.exports = appInfo => {
   const config = exports = {};
 
@@ -28,6 +28,15 @@ module.exports = appInfo => {
     agent: false,
   };
   
+  config.static = {
+    prefix: '/',
+    dir: path.join(appInfo.baseDir, 'app/build'),
+    // support lazy load
+    dynamic: true,
+    preload: false,
+    buffer: false,
+    maxFiles: 1000,
+  };
 
   return config;
 };
