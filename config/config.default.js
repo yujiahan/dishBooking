@@ -1,5 +1,6 @@
 'use strict';
 var  path  = require('path')
+var fs = require('fs')
 module.exports = appInfo => {
   const config = exports = {};
 
@@ -7,7 +8,10 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1517280014725_411';
 
   // add your config here
-  config.middleware = [];
+  config.middleware = ['accessLogger'];
+  config.siteFile = {
+    '/favicon.ico': fs.readFileSync(path.join(__dirname, 'favicon.png')),
+  };
   config.mysql = {
     // 单数据库信息配置
     client: {
@@ -37,6 +41,12 @@ module.exports = appInfo => {
     buffer: false,
     maxFiles: 1000,
   };
+  config.security = {
+    csrf: {
+      enable: false
+    },
+  };
+  
 
   return config;
 };

@@ -7,14 +7,17 @@ const ParamValueMap = {
     'appKey': '84f68acf4d9f54b61b6b91b7fc2fe65a',
     'v' : '1.0',
     'entityId': '00138102',
-    'currDate': ()=> moment().format('YYYYMMDD'),
+    'currDate': ()=> moment().format("YYYYMMDD"),
+    'currMonth': ()=> '201806',
     'timestamp': ()=> new Date().getTime()
 }
 
 const MethodParamMap = new Map([
     ['dfire.shop.day.memu.data', ['appKey','timestamp', 'v', 'method', 'entityId', 'currDate'] ],
     ['dfire.shop.order.list', ['appKey','timestamp', 'v', 'method', 'entityId', 'currDate'] ],
-    ['dfire.shop.order.instance.list', ['appKey','timestamp','v','method', 'entityId','currDate','orderIds'] ]
+    ['dfire.shop.order.instance.list', ['appKey','timestamp','v','method', 'entityId','currDate','orderIds'] ],
+    ['dfire.shop.month.platform.data', ['appKey','timestamp','v','method', 'entityId','currMonth'] ],
+    ['dfire.shop.paymentflow.query', ['appKey','timestamp','v','method', 'entityId','currDate'] ]
 ])
 
 function genSign(method, param){

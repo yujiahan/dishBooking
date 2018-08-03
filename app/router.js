@@ -18,5 +18,12 @@ module.exports = app => {
   router.get('/chart/getOrderDetailList', controller.chart.getOrderDetailList);
   router.get('/chart/getDishRank', controller.chart.getDishRank);
   router.get('/chart/getDishConsumeList', controller.chart.getDishConsumeList);
+
+
+  router.get('/chart/testData', controller.chart.testData )
+  
+  
+  router.post('/import/busData', controller.import.busData )
+  router.get('/perform/getAllData', controller.perform.getAllData )
   
 };

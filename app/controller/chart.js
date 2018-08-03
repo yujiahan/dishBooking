@@ -5,6 +5,16 @@ const Controller = require('egg').Controller;
 let moment = require('moment')
 
 class ChartController extends Controller {
+  async testData() {
+    const result = await this.app.curl(url, {
+        method: 'POST',
+        data: genParam('dfire.shop.paymentflow.query')
+    });
+    debugger;
+    this.ctx.status = result.status;
+    this.ctx.set(result.headers);
+    this.ctx.body = result.data;
+  }
   async getSaleDish() {
         const result = await this.app.curl(url, {
             method: 'POST',
@@ -54,7 +64,6 @@ class ChartController extends Controller {
         
          result = result.concat(JSON.parse(partOrderResult.data.toString()).model)
     }
-    
     result.map((item)=>{      
         orderMap.get(item.orderId).dishList.push({
             name: item.name,
