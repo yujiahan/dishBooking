@@ -8,6 +8,9 @@ class ImportController extends Controller {
     
     this.ctx.body = await this.app.mysql.select('perfmWaiter');
   }
+  async saveTodayConsume () {
+    var  chefConsume = this.ctx.request.body;
+  }
 }
 
 module.exports = ImportController;

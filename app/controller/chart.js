@@ -10,7 +10,6 @@ class ChartController extends Controller {
         method: 'POST',
         data: genParam('dfire.shop.paymentflow.query')
     });
-    debugger;
     this.ctx.status = result.status;
     this.ctx.set(result.headers);
     this.ctx.body = result.data;
@@ -95,7 +94,7 @@ class ChartController extends Controller {
   }
 
   async getDishConsumeList(){
-
+    var chefName = this.ctx.params.chefName;
 
     var dishRank = await this.getDishRankPureData();
     var dishDatabase =  await this.app.mysql.select('alldish');
@@ -104,7 +103,7 @@ class ChartController extends Controller {
     
     dishRank.dishDetailResult.forEach((rankDish)=>{
         dishDatabase.forEach((dishdb)=>{
-             if(dishdb.name === rankDish.dishName && dishdb.consume_list !== null) {
+             if(dishdb.name === rankDish.dishName && dishdb.consume_list !== null && (dishdb.chef_name === chefName || chefName ==='chenzong')) {
                 var consumeList = dishdb['consume_list'].split(',');
                 consumeList.forEach((item=>{
                     var itemName = item.split('|')[0];
@@ -124,9 +123,7 @@ class ChartController extends Controller {
                         amount: oldAmount + rankDish.accountNum * item.split('|')[1],
                         dishList: dishConsumeMap.get(itemName).dishList
                     })
-                }))
-
-                 
+                }))                 
             }
         })
         var consumeResponseData = [];
@@ -146,7 +143,8 @@ class ChartController extends Controller {
             data: consumeResponseData
         };
     })
-  }
+  } 
+
   async getDishRankPureData(){
     let orderResult = await this.app.curl(url, {
         method: 'POST',

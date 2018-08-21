@@ -17,13 +17,15 @@ module.exports = app => {
   router.get('/chart/getOrderList', controller.chart.getOrderList);
   router.get('/chart/getOrderDetailList', controller.chart.getOrderDetailList);
   router.get('/chart/getDishRank', controller.chart.getDishRank);
-  router.get('/chart/getDishConsumeList', controller.chart.getDishConsumeList);
+  router.get('/chart/getDishConsumeList/:chefName', controller.chart.getDishConsumeList);
 
 
   router.get('/chart/testData', controller.chart.testData )
   
   
   router.post('/import/busData', controller.import.busData )
+  router.post('/perform/saveTodayConsume', controller.perform.saveTodayConsume )
+  
   router.get('/perform/getAllData', controller.perform.getAllData )
   
 };
