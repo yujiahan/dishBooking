@@ -1,7 +1,3 @@
-var __makeTemplateObject = (this && this.__makeTemplateObject) || function (cooked, raw) {
-    if (Object.defineProperty) { Object.defineProperty(cooked, "raw", { value: raw }); } else { cooked.raw = raw; }
-    return cooked;
-};
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -48,14 +44,11 @@ var __importStar = (this && this.__importStar) || function (mod) {
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
-define(["require", "exports", "react", "styled-components", "axios"], function (require, exports, react_1, styled_components_1, axios_1) {
+define(["require", "exports", "react", "axios"], function (require, exports, react_1, axios_1) {
     "use strict";
-    debugger;
     Object.defineProperty(exports, "__esModule", { value: true });
     react_1 = __importStar(react_1);
-    styled_components_1 = __importDefault(styled_components_1);
     axios_1 = __importDefault(axios_1);
-    var ProductStyle = styled_components_1.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  .tango-comp-product  {\n    background-color: brown;\n  }\n"], ["\n  .tango-comp-product  {\n    background-color: brown;\n  }\n"])));
     var Product = function (props) {
         var _a, _b, _c, _d, _e, _f, _g, _h;
         var pageBasic = ((_a = props.extra) === null || _a === void 0 ? void 0 : _a.pageBasic) || ((_d = (_c = (_b = props.extra) === null || _b === void 0 ? void 0 : _b.hooksHandle) === null || _c === void 0 ? void 0 : _c.useRootStore()) === null || _d === void 0 ? void 0 : _d.pageBasicStore) || {}; // 使用全局共享参数
@@ -88,12 +81,11 @@ define(["require", "exports", "react", "styled-components", "axios"], function (
         react_1.useEffect(function () {
             fetchProductData(pageNo, true);
         }, [(_h = pageBasic === null || pageBasic === void 0 ? void 0 : pageBasic.cParams) === null || _h === void 0 ? void 0 : _h.vid]);
-        return (react_1.default.createElement(ProductStyle, null,
-            react_1.default.createElement("div", { className: 'tango-comp-product', style: containerStyle },
-                (productList || []).map(function (product, idx) { return (react_1.default.createElement("div", { key: "" + product.result.spuName + idx, style: { width: '50%', display: 'inline-block' } },
-                    react_1.default.createElement("img", { alt: '\u56FE\u7247', width: "170", height: '70', src: product.result.imgUrl, style: imgStyle }),
-                    react_1.default.createElement("p", { style: titleStyle }, product.result.spuName))); }),
-                react_1.default.createElement("button", { type: 'button', onClick: function () { return setPageNo(pageNo + 1); } }, "\u67E5\u770B\u66F4\u591A"))));
+        return (react_1.default.createElement("div", { className: 'tango-comp-product', style: containerStyle },
+            (productList || []).map(function (product, idx) { return (react_1.default.createElement("div", { key: "" + product.result.spuName + idx, style: { width: '50%', display: 'inline-block' } },
+                react_1.default.createElement("img", { alt: '\u56FE\u7247', width: "170", height: '70', src: product.result.imgUrl, style: imgStyle }),
+                react_1.default.createElement("p", { style: titleStyle }, product.result.spuName))); }),
+            react_1.default.createElement("button", { type: 'button', onClick: function () { return setPageNo(pageNo + 1); } }, "\u67E5\u770B\u66F4\u591A")));
     };
     Product.getInitialProps = function (cmpProps /* , rootStore , cmpKey */) { return __awaiter(void 0, void 0, void 0, function () {
         var data, res;
@@ -140,6 +132,5 @@ define(["require", "exports", "react", "styled-components", "axios"], function (
         }
     ];
     exports.default = Product;
-    var templateObject_1;
 });
 //# sourceMappingURL=HotelProduct.js.map
